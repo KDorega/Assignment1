@@ -1,0 +1,65 @@
+.profile {
+    position: relative; 
+}
+
+.profile img {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    left:1000px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.education {
+    display: flex;
+}
+
+.left {
+    flex: 0;
+}
+.left p {
+    margin-bottom: 4em; /* Khoảng cách giữa các dòng văn bản */
+}
+.right {
+    flex: 0.8;
+    margin-left: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Chia thành hai cột bằng nhau */
+    column-gap: 10px; /* Khoảng cách giữa hai cột */
+}
+.education,
+.kinhnghiemvietlam {
+    display: flex;
+}
+
+.education .left,
+.kinhnghiemvietlam .left {
+    flex: 1;
+    padding-right: 20px; /* Tạo khoảng cách giữa hai cột */
+}
+.kinhnghiemvietlam .left p {
+    margin-bottom: 13em; /* Khoảng cách giữa các dòng văn bản */
+}
+
+.education .right,
+.kinhnghiemvietlam .right {
+    flex: 2;
+}
+.kynang {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    margin-right: 1000px;
+}
+.chungchigiaithuong{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    margin-right: 800px;
+}
